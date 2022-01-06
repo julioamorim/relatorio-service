@@ -8,3 +8,6 @@ kafka:
   bootstrap:
     servers: localhost:9092
 
+mongodb:
+  uri: 'mongodb://localhost:27017/vendas'
+
