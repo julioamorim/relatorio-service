@@ -1,10 +1,9 @@
 package io.github.julioamorim.repository
 
-import com.mongodb.client.result.InsertOneResult
-import com.mongodb.reactivestreams.client.MongoClient
+import com.mongodb.client.MongoClient
+
 import io.github.julioamorim.model.Venda
 import jakarta.inject.Singleton
-import org.reactivestreams.Publisher
 
 
 @Singleton
